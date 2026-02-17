@@ -104,7 +104,7 @@ html, body{
   top: 20px;
   left: 10px;
   z-index: 9999;
-  width: var(--panel-w);
+  width: 480px;
   background: rgba(255, 255, 255, var(--panel-alpha));
   color: var(--panel-text);
   border-radius: var(--panel-radius);
@@ -124,14 +124,14 @@ html, body{
 
 .panel-title h1{
   margin: 0;
-  font-size: var(--title-size);
+  font-size: 26px;
   line-height: 1.1;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .panel-subtitle{
   margin: 8px 0 0;
-  font-size: var(--subtitle-size);
+  font-size: 13px;
   opacity: 0.9;
 }
 
